@@ -100,9 +100,9 @@ audio:not([controls]) {
  *    `em` units.
  */
 html {
-	font-family: 'PMNCaeciliaW01-55Roman', Verdana, Arial, Helvetica, sans-serif;
+	font-family: Lucida Grande, Verdana, Tahoma, sans-serif; /* , Arial, Helvetica*/
 	font-weight: normal;
-	font-size: 62.5%;	/* this is about 10 pt */
+	font-size: 75%;	/* 62.5% is about 10 pt */
 	background-color: #58676F;
 	background-position: center top;
 	background-repeat: no-repeat;
@@ -156,11 +156,14 @@ body {
  * http://meyerweb.com/eric/thoughts/2007/06/11/who-ordered-the-link-states
  */
 a:link {
+	color: #FFFFFF;
 }
 a:visited {
+	color: #FFFFFF;
 }
 a:hover,
 a:focus {
+	color: #E8B94D !important;
 }
 a:active {
 }
